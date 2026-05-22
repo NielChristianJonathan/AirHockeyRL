@@ -1,0 +1,111 @@
+{
+  "total_sessions": 5,
+  "votes": [
+    {
+      "session": 1,
+      "timestamp": "2026-05-20 20:28:37",
+      "model_order": [
+        "before",
+        "after"
+      ],
+      "scores": [
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "voted": "Model B",
+      "voted_tag": "after"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-05-20 20:30:02",
+      "model_order": [
+        "after",
+        "before"
+      ],
+      "scores": [
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "voted": "Model A",
+      "voted_tag": "after"
+    },
+    {
+      "session": 3,
+      "timestamp": "2026-05-20 20:44:58",
+      "model_order": [
+        "after",
+        "before"
+      ],
+      "scores": [
+        [
+          3,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "voted": "Model B",
+      "voted_tag": "before"
+    },
+    {
+      "session": 4,
+      "timestamp": "2026-05-20 20:53:08",
+      "model_order": [
+        "after",
+        "before"
+      ],
+      "scores": [
+        [
+          6,
+          1
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "voted": "Model A",
+      "voted_tag": "after"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-05-20 20:54:17",
+      "model_order": [
+        "before",
+        "after"
+      ],
+      "scores": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "voted": "Model B",
+      "voted_tag": "after"
+    }
+  ],
+  "summary": {
+    "before_rlhf_votes": 1,
+    "after_rlhf_votes": 4,
+    "before_rlhf_pct": 20.0,
+    "after_rlhf_pct": 80.0
+  }
+}
